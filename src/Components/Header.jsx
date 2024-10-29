@@ -6,8 +6,8 @@ export default function Header(){
         <>
             <header>
                 Header
+                <Logo/> 
                 <nav>
-                    <Logo/>
                 </nav>
             </header>
         </>

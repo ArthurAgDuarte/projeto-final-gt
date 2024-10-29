@@ -1,0 +1,24 @@
+:root {
+    /* Paleta de cores */
+    --cor-principal: #C92071;
+    --cor-secundaria: #B5B6F2;
+    --cor-terciaria: #991956;
+    --cor-erro: #EE4266;
+    --cor-sucesso: #52CA76;
+    --cor-aviso: #F6AA1C;
+    --cor-01: #1F1F1F;
+    --cor-02: #666666;
+    --cor-03: #8F8F8F;
+    --cor-04: #CCCCCC;
+    --cor-05: #F5F5F5;
+    --cor-06: #FFFFFF;
+
+}
+
+* {
+    font-family: "Inter", sans-serif;;
+    color: var(--cor-principal);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

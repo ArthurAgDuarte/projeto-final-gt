@@ -4,8 +4,8 @@ import './Logo.css'
 export default function Logo(){
     return(
         <>
-        <div>
-        <img src={minhaImagem} alt="" />Drip Store
+        <div className='logo'>
+        <img src={minhaImagem} alt="" /><h1>Drip Store</h1>
         </div>
         </>
     );
