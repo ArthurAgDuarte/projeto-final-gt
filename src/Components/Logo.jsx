@@ -1,4 +1,5 @@
-import minhaImagem from '../assets/logo.png';
+import minhaImagem from '../assets/Group.svg';
+import './Logo.css'
 
 export default function Logo(){
     return(
