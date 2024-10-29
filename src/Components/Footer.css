@@ -1,0 +1,43 @@
+
+footer{
+    padding: 4rem 6rem;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+footer .levy {
+    display: flex;
+
+}
+
+ul{
+    /* display: flex; */
+    flex-direction: column;
+}
+.Digital {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+    text-align: center;
+}
+
+.Logo img  {
+    width: 70px;
+    padding: 0.7rem 1.7rem;
+    border-radius: 30%;
+
+}
+
+.Logo {
+    display: flex;
+    
+}
+
+.rede-sociais {
+    display: flex;
+    gap: 3.25rem;
+    padding: 2rem 6rem;
+    
+
+}
+
