@@ -1,4 +1,4 @@
-import Logo from "./Logo";
+import Logo from "../Logo/Logo";
 
 
 export default function Header(){
@@ -6,7 +6,7 @@ export default function Header(){
         <>
             <header>
                 Header
-                <Logo/> 
+                <Logo cor ="red"/> 
                 <nav>
                 </nav>
             </header>
