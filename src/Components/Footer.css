@@ -1,6 +1,11 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 
 footer{
-    display: flex;
+   
     padding: 4rem 6rem;
     background-color: #1f1f1f;
     color: #ffffff;
@@ -9,40 +14,41 @@ footer{
 
 .paragrafo {
     padding: 0.3rem 1.6rem;
-    color: rgb(255, 0, 0);
+    /* color: rgb(255, 0, 0); */
 } 
 
 .info{
-    margin-top: -1.4rem;
-    /* border: 2px yellow solid; */
+    /* list-style-type: none; */
+   /* margin-top: -1.4rem; */
+    /* list-style-type: none; */
+    /* padding: 0; remove o recuo padrão da lista */
+    /* margin: 0; */
+    border: 2px yellow solid;
 }
 
 .cate{
-    margin-top: -1.4rem;
-    /* border: 2px rgba(255, 0, 225, 0.934) solid; */
+   
+    /* margin-top: -1.4rem; */
+    border: 2px rgba(255, 0, 225, 0.934) solid;
 }
 
 .goku {
-    margin-top: -1.4rem;
-    /* border: 2px rgb(127, 55, 228) solid; */
+    /* margin-top: -1.4rem; */
+    border: 2px rgb(127, 55, 228) solid;
 
 }
 
-footer .levy {
-    /* display: flex; */
-    padding: 2rem 4rem;
-    margin-top: -10rem; 
-    margin-left: 30rem;
-}
 
 .contener {
     display: flex;
+    gap: 4rem;
+   
 }
 
 ul{
     /* display: flex; */
     flex-direction: column;
-    padding: 1rem 3rem;
+    /* padding: 1rem 3rem; */
     color: aqua;
 }
 .Digital {
@@ -54,8 +60,8 @@ ul{
 }
 
 .Logo img  {
-    width: 20rem;
-    padding: 0.7rem 1.7rem;
+    width: 9rem;  
+    /* padding: 0.7rem 1.7rem; */
   
 
 }
