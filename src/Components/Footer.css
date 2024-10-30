@@ -23,18 +23,18 @@ footer{
     /* list-style-type: none; */
     /* padding: 0; remove o recuo padrão da lista */
     /* margin: 0; */
-    border: 2px yellow solid;
+    /* border: 2px yellow solid; */
 }
 
 .cate{
    
     /* margin-top: -1.4rem; */
-    border: 2px rgba(255, 0, 225, 0.934) solid;
+    /* border: 2px rgba(255, 0, 225, 0.934) solid; */
 }
 
 .goku {
     /* margin-top: -1.4rem; */
-    border: 2px rgb(127, 55, 228) solid;
+    /* border: 2px rgb(127, 55, 228) solid; */
 
 }
 
@@ -46,10 +46,11 @@ footer{
 }
 
 ul{
+    list-style-type: none;
     /* display: flex; */
     flex-direction: column;
     /* padding: 1rem 3rem; */
-    color: aqua;
+    color: rgb(255, 255, 255);
 }
 .Digital {
     /* display: flex; */
@@ -67,7 +68,7 @@ ul{
 }
 
 .Logo {
-    border: 2px red solid;
+    /* border: 2px red solid; */
     /* width: 5rem; */
     /* display: flex; */
     /* padding: 1rem 2.4rem; */
