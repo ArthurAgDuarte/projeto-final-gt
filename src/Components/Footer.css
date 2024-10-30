@@ -1,20 +1,52 @@
 
 footer{
+    display: flex;
     padding: 4rem 6rem;
     background-color: #1f1f1f;
     color: #ffffff;
 }
-footer .levy {
-    display: flex;
 
+
+.paragrafo {
+    padding: 0.3rem 1.6rem;
+    color: rgb(255, 0, 0);
+} 
+
+.info{
+    margin-top: -1.4rem;
+    /* border: 2px yellow solid; */
+}
+
+.cate{
+    margin-top: -1.4rem;
+    /* border: 2px rgba(255, 0, 225, 0.934) solid; */
+}
+
+.goku {
+    margin-top: -1.4rem;
+    /* border: 2px rgb(127, 55, 228) solid; */
+
+}
+
+footer .levy {
+    /* display: flex; */
+    padding: 2rem 4rem;
+    margin-top: -10rem; 
+    margin-left: 30rem;
+}
+
+.contener {
+    display: flex;
 }
 
 ul{
     /* display: flex; */
     flex-direction: column;
+    padding: 1rem 3rem;
+    color: aqua;
 }
 .Digital {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     color:#ffffff;
@@ -22,22 +54,36 @@ ul{
 }
 
 .Logo img  {
-    width: 70px;
+    width: 20rem;
     padding: 0.7rem 1.7rem;
-    border-radius: 30%;
+  
 
 }
 
 .Logo {
-    display: flex;
+    border: 2px red solid;
+    /* width: 5rem; */
+    /* display: flex; */
+    /* padding: 1rem 2.4rem; */
     
 }
+
+/* .lorem {
+    display: flex;
+    padding: 2rem ;
+}  */
 
 .rede-sociais {
     display: flex;
     gap: 3.25rem;
-    padding: 2rem 6rem;
+    padding: 3rem 0.3rem;
     
-
+    
 }
 
+.rede-sociais img {
+    width: 25px;
+    padding: auto ;
+   
+
+}
