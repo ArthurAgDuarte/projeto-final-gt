@@ -1,3 +1,6 @@
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
     /* Paleta de cores */
     --cor-principal: #C92071;
@@ -17,8 +20,21 @@
 
 * {
     font-family: "Inter", sans-serif;;
-    color: var(--cor-principal);
+    /* color: var(--cor-principal); */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    color: var(--cor-principal);
+}
+
+footer{
+    padding: 3rem 3rem;
+    background-color: #1f1f1f;
+    color: var(--cor-06);
+    position: fixed;
+    width: 100%;
+}
+    

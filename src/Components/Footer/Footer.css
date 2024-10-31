@@ -1,0 +1,73 @@
+
+
+/* footer{
+   
+    
+} */
+
+li{
+    padding: 0.5rem;
+}
+p {
+    padding: 1rem 0rem;
+} 
+
+.info{
+
+    /* padding: ; */
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    /* border: 2px yellow solid; */
+}
+
+
+.contener {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-around;
+   /* border: 6px solid orange; */
+}
+
+ul{
+    list-style-type: none;
+    /* display: flex;
+    flex-direction: column; */
+    /* padding: 1rem 3rem; */
+}
+.Digital {
+    /* display: flex; */
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Logo {
+    /* border: 2px red solid; */
+    width: 30rem;
+    /* width: 5rem; */
+    /* display: flex; */
+    /* padding: 1rem 2.4rem; */
+    
+}
+
+.info1{
+    width: 12rem;
+}
+
+.info2{
+    width: 12rem;
+}
+.info3{
+    width: 20rem;
+}
+
+.rede-sociais {
+    display: flex;
+    gap: 1.5rem;
+    padding: 3rem 0.3rem;
+    font-size: 1.6rem;
+    
+}
+
