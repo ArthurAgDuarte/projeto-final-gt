@@ -1,19 +1,19 @@
+
 import { Route, Routes } from "react-router-dom";
-// import Home from '../Pages/Home';
-// import Sobre from '../Pages/Sobre';
-// import Produtos from '../Pages/Produtos';
-// import NotFound from '../Pages/NotFound';
-// import Contato from "../Pages/Contato";
+import Home from "../Pages/Home";
+import ProductLP from "../Pages/ProductLP";
+import ProductVP from "../Pages/ProductVP";
+import NotFound from "../Pages/NotFound";
 
 export default function AppRoutes() {
-    return (
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/sobre" element={<Sobre />} />
-            <Route path="/produtos" element={<Produtos />} />
-            <Route path="/contato" element={<Contato />} />
-
-            <Route path="*" element={<NotFound />} />
-        </Routes>
-    );
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/produtos" element={<ProductLP/>} />
+        <Route path="/product" element={<ProductVP/>} />
+        <Route path="*" element={<NotFound/>} />
+      </Routes>
+    </>
+  );
 }
