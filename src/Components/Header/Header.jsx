@@ -6,7 +6,7 @@ export default function Header(){
         <>
             <header>
                 Header
-                <Logo cor ="red"/> 
+                <Logo cor ="blue"/> 
                 <nav>
                 </nav>
             </header>

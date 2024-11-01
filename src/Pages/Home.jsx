@@ -1,8 +1,13 @@
 
+import Header from '../Components/Header/Header.jsx';
+import Footer from '../Components/Footer/Footer.jsx';
+
+
 export default function Home(){
     return(
     <>
-        <h2>Home</h2>
+       <Header/>
+       <Footer/>
     </>
     );
 }
