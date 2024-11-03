@@ -1,0 +1,64 @@
+.product-card-container {
+  width: 300px;
+  height: max-content;
+}
+
+.figure-container {
+  position: relative;
+  width: inherit;
+  height: 20rem;
+  overflow: hidden; /* Efeito para transbordar */
+  box-shadow: 0.5rem 1rem 0.6rem #6962620d; /*Sombra de caixa*/
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /*Ajuste do Objeto*/
+  object-position: center; /*Posição do Objeto*/
+  position: absolute;
+  cursor: zoom-in;
+  transition: all 0.4s ease;
+}
+
+.figure-container:hover .product-image {
+  transform: scale(1.1);
+}
+
+.product-discont {
+  z-index: 1;
+  position: absolute;
+  top: 0.6rem;
+  left: 0.6rem;
+  color: #2c2c2c;
+  font-weight: 700;
+  padding: 0.4rem 0.6rem; /*Preenchimento*/
+  border-radius: 1.2rem;
+  background-color: #e3e3e3;
+}
+
+.product-container-informations {
+  padding: 0.6rem;
+}
+
+.product-container-informations > h2 {
+  color: #2c2c2c;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.product-container-informations-paragraph {
+  font-size: 1.5rem;
+  margin-top: 0.6rem;
+}
+
+.product-container-informations-paragraph > span:first-child {
+  margin-right: 0.5rem;
+  text-decoration: line-through;
+  color: #2c2c2c;
+  text-decoration-thickness: 0.1rem;
+}
+
+.product-container-informations-paragraph > span:last-child {
+  font-weight: 700;
+}
