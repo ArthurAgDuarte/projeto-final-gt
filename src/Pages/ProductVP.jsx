@@ -1,8 +1,9 @@
+import ProductCard from "../Components/ProductCard/ProductCard";
 
 export default function ProductVP(){
     return(
     <>
-        <h2>Ver Produto</h2>
+        <ProductCard/>
     </>
     );
 }

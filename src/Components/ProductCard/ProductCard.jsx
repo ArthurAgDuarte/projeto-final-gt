@@ -1,8 +1,8 @@
 import "./ProductCard.css";
 import { useNavigate } from "react-router-dom";
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 
-export function ProductCard({ produto }) {
+export default function ProductCard({ produto }) {
   const navigate =
     useNavigate(); /*redireciona o usuário para a página produto*/
   const handleClick = () => navigate("/produto");
@@ -27,6 +27,6 @@ export function ProductCard({ produto }) {
     </div>
   );
 }
-ProductCard.PropTypes = {
-  produto: PropTypes.object,
+ProductCard.propTypes = {
+  produto: propTypes.object,
 };
