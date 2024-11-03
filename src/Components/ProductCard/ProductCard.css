@@ -5,8 +5,8 @@
 
 .figure-container {
   position: relative;
-  width: inherit;
-  height: 20rem;
+  width: 18.25rem;
+  height: 20.0625rem;
   overflow: hidden; /* Efeito para transbordar */
   box-shadow: 0.5rem 1rem 0.6rem #6962620d; /*Sombra de caixa*/
 }
@@ -26,7 +26,7 @@
 }
 
 .product-discont {
-  z-index: 1;
+  z-index: 6;
   position: absolute;
   top: 0.6rem;
   left: 0.6rem;
@@ -34,7 +34,7 @@
   font-weight: 700;
   padding: 0.4rem 0.6rem; /*Preenchimento*/
   border-radius: 1.2rem;
-  background-color: #e3e3e3;
+  background-color: yellow;
 }
 
 .product-container-informations {
