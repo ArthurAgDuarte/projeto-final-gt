@@ -5,10 +5,15 @@
 }
 .filter{
     background-color: gray;
-    width: 15rem;
-    height: 35rem;
-    padding: 2rem;
-    border-radius: 0.5rem;
+    width: 19.25rem;
+    height: 720rem;
+    top:20.75rem;
+    left: 6.25rem;
+    padding: 1.875rem 1rem 0 0;
+    gap: 1.25rem;
+    border-radius:4px;
+    opacity: 0rem;
+ */
 }
 
 hr{
@@ -17,13 +22,22 @@ hr{
 
 h1{
     text-align:left;
-    font-size: 1.3rem;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 h2{
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 0.875rem;
+    font-weight: 700;
     padding: 0.3rem;
+}
+
+ul{
+    font-size: 0.875rem;
+    font-weight: 500;
+    gap: 0.625rem;
+    
 }
 
 li{ 
