@@ -1,9 +1,22 @@
 import React from 'react';
 import './LoginPage.css'; // Adicione um arquivo CSS separado para estilização
+import google from '../assets/google.png';
+import facebook from '../assets/facebook.png'
+import img from '../assets/img.png'
+import tenis1 from '../assets/ténis1.png'
+import tenis2 from '../assets/ténis2.png'
+
 
 export default function LoginPage() {
   return (
     <div className="login-container">
+
+             <div className="tenis">
+                <img src={tenis1} alt="icon-img" /> 
+                <img src={tenis2} alt="icon-img" /> 
+             </div>
+
+
       <div className="login-card">
         <h2>Crie sua conta</h2>
         <p>
@@ -21,15 +34,14 @@ export default function LoginPage() {
             Criar Conta
           </button>
         </form>
-        <div className="social-login">
-          <p>Ou faça login com</p>
-          <div className="social-buttons">
-            <button className="social-btn google">G</button>
-            <button className="social-btn facebook">F</button>
-          </div>
+        
+        <button className="social-btn">
+          <img src={img} className="icon-img" />
+           </button>
+
         </div>
       </div>
-    </div>
+    
   );
 }
 

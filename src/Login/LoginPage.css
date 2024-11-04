@@ -3,9 +3,13 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #e6e6fa; /* tom de roxo claro */
+    background-color: rgb(160, 160, 221); /* tom de roxo claro */
   }
   
+  .tenis {
+    display: flex;
+  }  
+
   .login-card {
     background-color: #fff;
     padding: 30px;
@@ -17,10 +21,19 @@
   }
   
   h2 {
+    display: flex;
     margin-bottom: 20px;
     color: #333;
   }
+
+  p {
+    display: flex;
+   }
   
+   label {
+      display: flex;
+   }
+
   form {
     display: flex;
     flex-direction: column;
@@ -45,34 +58,19 @@
   .create-account-button:hover {
     background-color: #b21276; /* variação mais escura */
   }
-  
-  .social-login {
-    margin-top: 20px;
-  }
-  
-  .social-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-  
+
   .social-btn {
-    padding: 8px 15px;
-    border-radius: 5px;
+    background-color: #ffffff;
+    color: #ffffff;
+    margin-top: 1rem;
     border: none;
-    cursor: pointer;
-    width: 8%;
+
+  }
+
+  .icon-img {
+    width: 20rem; 
     height: auto;
-    /* display: flex; */
-  }
-  
-  .google {
-    background-color: #db4437; /* vermelho Google */
-    color: #fff;
-  }
-  
-  .facebook {
-    background-color: #3b5998; /* azul Facebook */
-    color: #fff;
+    display: flex;
+
   }
   
