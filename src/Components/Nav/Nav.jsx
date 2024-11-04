@@ -4,16 +4,16 @@ import "../Nav/Nav.css";
 export default function Nav() {
   return (
     <>
-      <NavLink to="/" exact activeClassName="current">
+      <NavLink to="/" >
         Home
       </NavLink>
-      <NavLink to="/produtos" exact activeClassName="current">
+      <NavLink to="/produtos" >
         Produtos
       </NavLink>
-      <NavLink to="/sobre" activeClassName="current">
+      <NavLink to="/sobre" >
         Sobre
       </NavLink>
-      <NavLink to="/carrinho" activeClassName="current">
+      <NavLink to="/carrinho" >
         Pedidos
       </NavLink>
     </>

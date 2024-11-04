@@ -32,7 +32,7 @@ body{
 
 footer{
     padding: 3rem 3rem;
-    background-color: #1f1f1f;
+    background-color: var(--cor-01);
     color: var(--cor-06);
     position: fixed;
     width: 100%;

@@ -1,10 +1,6 @@
 
-img{
-    width: 2.0625rem;
-    height: 2.0625rem;
-}
-
 .logo{
     display: flex;
     gap: 0.7rem;
+    margin-top: 0%;
 }

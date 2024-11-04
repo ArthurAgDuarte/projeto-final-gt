@@ -17,9 +17,9 @@ export default function Footer() {
 
             <div className="rede-sociais">
 
-            <i class="bx bxl-instagram"></i>
-            <i class="bx bxl-facebook"></i>
-            <i class="bx bxl-twitter"></i>
+            <i className="bx bxl-instagram"></i>
+            <i className="bx bxl-facebook"></i>
+            <i className="bx bxl-twitter"></i>
 
             </div>
           </div>
