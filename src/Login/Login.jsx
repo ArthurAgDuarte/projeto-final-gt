@@ -12,7 +12,7 @@ export default function LoginPage() {
       <div className="login-card">
         <h2>Crie sua conta</h2>
         <p>
-          Novo cliente? Então registre-se <Link href="/login">a aqui</Link>.
+          Novo cliente? Então registre-se <Link to="/criar">a aqui</Link>.
         </p>
         <form>
           <label htmlFor="email">Login *</label>
@@ -29,7 +29,12 @@ export default function LoginPage() {
             id="senha"
             placeholder="Insira sua senha"
             required
-          /> 
+            
+          />
+
+          <div className="esqueciSenha">
+            <Link to="/login">Esqueci minha senha</Link> 
+          </div>
           
           <button type="submit" className="create-account-button">
             Criar Conta

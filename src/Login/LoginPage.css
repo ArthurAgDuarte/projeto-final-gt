@@ -58,6 +58,7 @@
   
    a{
     margin-left: 5px;
+    color: #474747;
      }
 
    label {
@@ -102,5 +103,14 @@
     height: auto;
     display: flex;
 
+  }
+
+  .esqueciSenha {
+    display: flex;
+    width: 152px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    color: #474747;  
   }
   
