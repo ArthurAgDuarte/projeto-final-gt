@@ -1,0 +1,9 @@
+
+a{
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+a.current{
+    text-decoration: overline underline;
+}

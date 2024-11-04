@@ -1,8 +1,12 @@
-
+import Header from '../Components/Header/Header.jsx';
+import Footer from '../Components/Footer/Footer.jsx';
 export default function ProductLP() {
   return (
     <>
-      <h2>Lista de Produto</h2>
+        <Header/>
+        <h2>Lista de Produto</h2>
+        <Footer/>
+      
     </>
   );
 }
