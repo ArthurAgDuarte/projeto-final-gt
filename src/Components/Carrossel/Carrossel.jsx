@@ -1,10 +1,25 @@
+import { useState } from "react";
+import "../Carrossel/Carrossel.css"
+
+import imgA from '../../assets/tenispreto.png'; 
+import imgB from '../../assets/tenispreto.png';
+import imgC from '../../assets/tenispreto.png';
+import imgD from '../../assets/tenispreto.png';
+import imgE from '../../assets/tenispreto.png';
+import imgF from '../../assets/tenispreto.png';
+import imgG from '../../assets/tenispreto.png';
+import imgH from '../../assets/tenispreto.png';
+
+import setaEsquerda from '../../assets/setaEsquerda.svg';
+import setaDireita from '../../assets/setaDireita.svg';
+
 const imagensCarrosel = [imgA, imgB, imgC, imgD, imgE, imgF, imgG, imgH];
 
 export default function Carrossel({
-  width = 1440,
-  height = 875,
-  radius = "4px",
-  showThumbs,
+  // width = 1440,
+  // height = 875,
+  // radius = "4px",
+  showThumbs = false,  // Verifique se o valor padrão é `false`
 }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -21,19 +36,19 @@ export default function Carrossel({
   };
 
   return (
-    <div className="gallery" style={{ width: "100%", height: "100%" }}>
+    <div className="gallery">
       <button onClick={handlePrev} className="gallery-button">
-        <img src={setaEsquerda} alt="Anterior" />
+        <img src={setaEsquerda} alt="Anterior" className="seta"/>
       </button>
 
       <img
         src={imagensCarrosel[currentIndex]}
-        alt={`Slide ${currentIndex + 1}` }
-        style={{ borderRadius: radius, width: "100%", height: "100%" }}
+        alt={`Slide ${currentIndex + 1}`}
+        className="produtos"
       />
 
       <button onClick={handleNext} className="gallery-button">
-        <img src={setaDireita} alt="Próximo" />
+        <img src={setaDireita} alt="Próximo" className="seta" />
       </button>
 
       {showThumbs && (
@@ -43,12 +58,6 @@ export default function Carrossel({
               key={index}
               src={image}
               alt={`Thumb ${index + 1}`}
-              style={{
-                width: showThumbs.width,
-                height: showThumbs.height,
-                borderRadius: radius,
-                border: currentIndex === index ? "2px solid #primary" : "none",
-              }}
               onClick={() => setCurrentIndex(index)}
               className="thumbnail"
             />

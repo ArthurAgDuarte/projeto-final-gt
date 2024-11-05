@@ -1,0 +1,85 @@
+/* img.produtos {
+    width: 50%;
+    height: 50%;
+    
+}
+
+.seta{
+    width: 15%;
+    height: 15%;
+}
+
+.gallery-button{
+    background-color:#ffffff0c;
+    height: 15%;
+    width: 15%;
+
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+} */
+
+/* Estilos para o contêiner da galeria */
+.gallery {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #F5F5F5; /* Fundo preto, pode ser alterado */
+  }
+  
+  /* Estilo para os botões de navegação */
+  .gallery-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .gallery-button img {
+    width: 40px;  /* Ajuste o tamanho da seta */
+    height: auto;
+  }
+  
+  /* Botão esquerdo (seta para a esquerda) */
+  .gallery-button:first-child {
+    left: 10px;
+  }
+  
+  /* Botão direito (seta para a direita) */
+  .gallery-button:last-child {
+    right: 10px;
+  }
+  
+  /* Estilo da imagem do carrossel */
+  .gallery img {
+    object-fit: cover;  /* Garantir que a imagem preencha a área disponível */
+    border-radius: 4px;
+  }
+  
+  /* Estilos dos thumbs (miniaturas) */
+  .thumbnails {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .thumbnail {
+    cursor: pointer;
+    transition: transform 0.3s ease, border 0.3s ease;
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.1);
+  }
+  
+
+  

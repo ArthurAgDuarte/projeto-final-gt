@@ -28,13 +28,13 @@
 
 body{
     color: var(--cor-principal);
+    background-color: var(--cor-02);
 }
 
 footer{
     padding: 3rem 3rem;
     background-color: var(--cor-01);
     color: var(--cor-06);
-    position: fixed;
-    width: 100%;
+    /* position: fixed; */
+    /* width: 100%; */
 }
-    
