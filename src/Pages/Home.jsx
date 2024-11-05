@@ -7,6 +7,9 @@ export default function Home(){
     return(
     <>
        <Header/>
+       <main>
+        <h1>fazer carrossel</h1>
+       </main>
        <Footer/>
     </>
     );

@@ -3,6 +3,7 @@ import Nav from "../Nav/Nav";
 import Search from "../Search/Search";
 import "../Header/Header.css"
 import { Link } from 'react-router-dom';
+import BHeader from "../BHeader/BHeader";
 
 
 export default function Header(){
@@ -12,6 +13,7 @@ export default function Header(){
                 {/* <Link to ='/'><Logo cor ="#C92071"/></Link> */}
                 <Logo cor ="#C92071"/>
                 <Search/>
+                <BHeader/>
                 <Nav/>
             </header>
         </>
