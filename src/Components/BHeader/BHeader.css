@@ -1,4 +1,6 @@
-
+a.cadastro{
+    text-decoration: underline;
+}
 button.entrar{
     background-color: #C92071;
     color: #ffffff;

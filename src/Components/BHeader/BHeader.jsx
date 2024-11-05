@@ -6,7 +6,7 @@ import minhaImagem from "../../assets/Cart.svg"
 export default function BHeader() {
     return(
         <>
-            <Link to = "/cadastro">Cadastre-se</Link>
+            <Link to = "/cadastro" className="cadastro">Cadastre-se</Link>
             <Link to = "/login">
                 <button className="entrar">Entrar</button>
             </Link>
