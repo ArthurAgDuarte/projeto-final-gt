@@ -64,10 +64,20 @@
 .product-container-informations {
   display: flex;
   flex-direction: column;
-  padding: 2.625rem 0 0 0 ;
+  padding: 1.125rem 0 0 0 ;
   font-size: 1.5rem;
   font-weight: 400;
 }
+
+.product-container-informations h2 {
+  font-size: 0.75rem; 
+  color:#8f8f8f;
+}
+
+.product-container-informations h3 {
+  padding: 0.3rem 0 0 0;
+}
+
 
 
   .product-container-information-paragraph{
@@ -84,7 +94,8 @@
     font-weight: 400;
     font-size: 1.5rem;
     text-decoration: line-through; 
-    margin-right: 1rem; 
+    margin-right: 0.5rem; 
+    letter-spacing: 0.75px;
   }
 
   .product-container-information-paragraph span:last-child {
@@ -92,6 +103,7 @@
     font-size: 1.5rem;
     font-weight: 400;
     text-decoration:none; 
+    letter-spacing: 0.75px;
   }
 
 
