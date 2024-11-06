@@ -17,10 +17,9 @@
 .figure-container {
   width: 292px;
   height: 280px;
-  border: 0.125rem solid red;
+  border: 0.125rem;
   position: relative;
   overflow: hidden;
-
 }
 
 
@@ -45,14 +44,16 @@
 
 
 .product-discount {
-  position:relative;
-  z-index: 1;
-  top: 0;
-  right: 0;
+  position:absolute;
+  left: 1.25rem;
+  top: 1.25rem;
+  text-align: center;
+  width: 96px;
+  height: 32px;
   background-color: #e7ff86;
   color: #474747;
-  padding: 2.1875rem 1.5625rem 0 0;
-  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem;
+  border-radius: 1.8125rem;
   
 }
 .priceCard{

@@ -9,21 +9,23 @@ export default function ProductCard({ produto }) {
 
   return (
     <div className="product-card-container" onClick={handleClick}>
-      <figure className="figure-container">
-        <span className="product-discount">30% OFF</span>
-        <img
-          className="product-image"
-          src={produto.image}
-          alt="imagem-produto"
-        />
-      </figure>
-      <section className="product-container-informations">
-        <h3>{produto.nome}</h3>
-        <p className="product-container-information-paragraph">
-          <span>${produto.price}</span>
-          <span>${produto.priceDiscont}</span>
-        </p>
-      </section>
+   <figure className="figure-container">
+  <span className="product-discount">30% OFF</span>
+  <img
+    className="product-image"
+    src={produto.image}
+    alt="imagem-produto"
+  />
+</figure>
+<section className="product-container-informations">
+  <h2>{produto.Categoria}</h2>
+  <h3>{produto.nome}</h3>
+  
+  <p className="product-container-information-paragraph">
+    <span>${produto.price}</span>
+    <span>${produto.priceDiscont}</span>
+  </p>
+</section>
     </div>
   );
 }
