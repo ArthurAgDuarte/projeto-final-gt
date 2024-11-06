@@ -11,7 +11,10 @@ li{
 p {
     padding: 1rem 0rem;
 } 
-
+a.link{
+    color: #ffffff;
+    /* text-align: right; */
+}
 .info{
 
     /* padding: ; */
@@ -63,9 +66,10 @@ ul{
     width: 20rem;
 }
 
-.rede-sociais {
+.rede-sociais, a.i {
+    color: white;
     display: flex;
-    gap: 1.5rem;
+    gap: 5.5rem;
     padding: 3rem 0.3rem;
     font-size: 1.6rem;
     

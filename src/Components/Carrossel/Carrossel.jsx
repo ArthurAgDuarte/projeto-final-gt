@@ -1,13 +1,13 @@
 import { useState } from "react";
 import "../Carrossel/Carrossel.css"
 
-import imgA from '../../assets/tenispreto.png'; 
+import imgA from '../../assets/rapaz.png'; 
 import imgB from '../../assets/tenispreto.png';
-import imgC from '../../assets/tenispreto.png';
+import imgC from '../../assets/rapaz.png';
 import imgD from '../../assets/tenispreto.png';
-import imgE from '../../assets/tenispreto.png';
+import imgE from '../../assets/rapaz.png';
 import imgF from '../../assets/tenispreto.png';
-import imgG from '../../assets/tenispreto.png';
+import imgG from '../../assets/rapaz.png';
 import imgH from '../../assets/tenispreto.png';
 
 import setaEsquerda from '../../assets/setaEsquerda.svg';

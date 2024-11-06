@@ -16,10 +16,12 @@ export default function Footer() {
 
 
             <div className="rede-sociais">
-
-            <i className="bx bxl-instagram"></i>
-            <i className="bx bxl-facebook"></i>
-            <i className="bx bxl-twitter"></i>
+            <Link to = "https://www.instagram.com/digitalcollegebr/" className="i" target="_blank"><i className="bx bxl-instagram"></i></Link>
+            <Link to = "https://www.facebook.com/digitalcollegebr" className="i" target="_blank"> <i className="bx bxl-facebook"></i></Link>
+            <Link to = "https://twitter.com/eaicollegers" className="i" target="_blank"><i className="bx bxl-twitter"></i></Link>
+           
+           
+            
 
             </div>
           </div>
@@ -28,18 +30,12 @@ export default function Footer() {
             <div className="info1">
               <ul>
                 <h3>Informação</h3>
-                <li>Sobre</li>
-                <li>Trabalhe conosco</li>
-                <li>Segurança</li>
-                <li>Carrinho</li>
-                <li>Blog</li>
-                <li>Meus Produtos</li>
-                {/* <li><Link to = "/"></Link></li>
-              <li><Link to = "/"></Link></li>
-              <li><Link to = "/"></Link></li>
-              <li><Link to = "/"></Link></li>
-              <li><Link to = "/"></Link></li>
-              <li><Link to = "/"></Link></li> */}
+                <li><Link to = "/sobre" className="link">Sobre</Link></li>
+                <li><Link to = "/" className="link">Trabalhe conosco</Link></li>
+                <li><Link to = "/" className="link">Segurança</Link></li>
+                <li><Link to = "/carrinho" className="link">Carrinho</Link></li>
+                <li><Link to = "/" className="link">Blog</Link></li>
+                <li><Link to = "/meuspedidos" className="link">Pedidos</Link></li>
               </ul>
             </div>
             
@@ -47,11 +43,11 @@ export default function Footer() {
             <div className="info2">
               <ul>
                 <h3>Categorias</h3>
-                <li>Camisas</li>
-                <li>Calças</li>
-                <li>Bonés</li>
-                <li>Fones</li>
-                <li>Tênis</li>
+                <li><Link to = "/produtos/camisas" className="link">Camisas</Link></li>
+                <li><Link to = "/produtos/calcas" className="link">Calças</Link></li>
+                <li><Link to = "/produtos/bones" className="link">Bonés</Link></li>
+                <li><Link to = "/produtos/fones" className="link">Fones</Link></li>
+                <li><Link to = "/produtos/tenis" className="link">Tênis</Link></li>
               </ul>
             </div>
             <div className="info3">

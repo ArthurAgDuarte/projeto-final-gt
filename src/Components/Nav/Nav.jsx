@@ -13,7 +13,7 @@ export default function Nav() {
       <NavLink to="/sobre" >
         Sobre
       </NavLink>
-      <NavLink to="/carrinho" >
+      <NavLink to="/meuspedidos" >
         Pedidos
       </NavLink>
     </>
