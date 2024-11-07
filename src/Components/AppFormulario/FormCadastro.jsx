@@ -1,13 +1,24 @@
 import React from 'react';
 import './FormCadastro.css';
+import img from '../../assets/college.png'
 
 export default function FormCadastro() {
   return (
   <>
+        <div className="img-digital">
+        <img src={img}/>
+        </div>
+      
+      <h1>Criar Conta</h1>
+
     <div className="form-cadastro-container">
 
-      <h2>Criar Conta</h2>
+      
       <form>
+
+      <div className="section">
+          <h3>Informações Pessoais</h3>
+          <hr /> </div>
 
         <div className="section">
          
@@ -15,6 +26,7 @@ export default function FormCadastro() {
           <div className="form-group">
             <label>Nome Completo *</label>
             <input type="text" placeholder="Insira seu nome" required />
+            
           </div>
 
 
@@ -38,6 +50,7 @@ export default function FormCadastro() {
 
         <div className="section">
           <h3>Informações de Entrega</h3>
+          <hr />
           <div className="form-group">
             <label>Endereço *</label>
             <input type="text" placeholder="Insira seu endereço" required />
