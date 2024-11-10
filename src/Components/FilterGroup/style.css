@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 .filter{
-    background-color: gray;
+    background-color: white;
     width: 19.25rem;
     height: 720rem;
     top:20.75rem;
@@ -13,17 +15,23 @@
     gap: 1.25rem;
     border-radius:4px;
     opacity: 0rem;
+    font-family: "Inter";
  
 }
 
 hr{
-    margin: 0.5rem;
+    width: 82%;
+    font-size: 16px;
+    margin: 0 auto;
+    background-color: seagreen;
+    height: 1px;
 }
 
 h1{
     text-align:left;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    padding :0rem 0rem 0.8rem 1.6rem ;
 }
 
 h2{
@@ -31,16 +39,48 @@ h2{
     font-size: 0.875rem;
     font-weight: 700;
     padding: 0.3rem;
+    padding :1.5rem 0rem 1rem 1.7rem ;
 }
 
 ul{
     font-size: 0.875rem;
     font-weight: 500;
-    gap: 0.625rem;
+    gap: 0.3rem;
+    padding :0rem 0rem 0rem 24px;
     
 }
 
 li{ 
     list-style: none;
     margin: 0.4rem;
+    font-weight: 400;
+    gap: 8px;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #C92071;
+    border-color: #C92071;
+}
+
+input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: translate(-50%, -50%) rotate(45deg);
 }
