@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from "react";
-import ProductCard from "./Components/ProductCard/ProductCard";
+import ProductCard from "./Components/ProductCard/ProductCard"; 
 import { BrowserRouter } from "react-router-dom";
 import { BuyBox } from "./Components/BuyBox/Buybox";
 
@@ -29,6 +29,7 @@ function App() {
       {/* <div>
         {produto ? <ProductCard produto={produto} /> : <p>Carregando...</p>}
       </div> */}
+      {/*  */}
       
       <BuyBox />
     </BrowserRouter>
