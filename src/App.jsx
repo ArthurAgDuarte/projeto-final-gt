@@ -1,7 +1,7 @@
-
 import React, { useState, useEffect } from "react";
 import ProductCard from "./Components/ProductCard/ProductCard"; 
-
+import { BrowserRouter } from "react-router-dom";
+import { BuyBox } from "./Components/BuyBox/Buybox";
 
 function App() {
   const [produto, setProduto] = useState(null); 
@@ -24,11 +24,10 @@ function App() {
 
   return (
     <BrowserRouter>
-    {/* Product Card comentado */}
-      {/* <div>
+      <div>
         {produto ? <ProductCard produto={produto} /> : <p>Carregando...</p>}
-      </div> */}
-      {/*  */}
+      </div>
+     
       
       <BuyBox />
     </BrowserRouter>

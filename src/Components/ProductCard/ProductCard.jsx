@@ -20,7 +20,7 @@ export default function ProductCard({ produto }) {
 <section className="product-container-informations">
   <h2>{produto.Categoria}</h2>
   <h3>{produto.nome}</h3>
-  
+
   <p className="product-container-information-paragraph">
     <span>${produto.price}</span>
     <span>${produto.priceDiscont}</span>
