@@ -10,7 +10,7 @@ export default function Header(){
     return(
         <>
             <header>
-                {/* <Link to ='/'><Logo cor ="#C92071"/></Link> */}
+                
                 <Logo cor ="#C92071"/>
                 <Search/>
                 <BHeader/>

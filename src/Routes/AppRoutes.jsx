@@ -4,6 +4,7 @@ import Home from "../Pages/Home";
 import ProductLP from "../Pages/ProductLP";
 import ProductVP from "../Pages/ProductVP";
 import NotFound from "../Pages/NotFound";
+import Carrinho from "../Pages/Carrinho";
 
 export default function AppRoutes() {
   return (
@@ -11,6 +12,7 @@ export default function AppRoutes() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/produtos" element={<ProductLP/>} />
+        <Route path="/carrinho" element={<Carrinho/>} />
         <Route path="/product" element={<ProductVP/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
