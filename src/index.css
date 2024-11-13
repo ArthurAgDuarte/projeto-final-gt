@@ -37,6 +37,4 @@ footer{
     color: var(--cor-06);
     position: fixed;
     width: 100%;
-    bottom: 0;
-    left: 0;
 }
