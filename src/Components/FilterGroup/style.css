@@ -1,7 +1,7 @@
 .filter {
     background-color: white;
     width: 19.25rem;
-    height: auto; /* Ajuste a altura conforme necessário */
+    height: auto;
     padding: 1.875rem 1rem 0 0;
     gap: 1.25rem;
     border-radius: 4px;
@@ -15,7 +15,7 @@
     margin: 0 auto;
     background-color: seagreen;
     height: 1px;
-    border: none; /* Adicione esta linha para remover qualquer borda padrão */
+    border: none; 
 }
 
 .filter h1 {
