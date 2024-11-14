@@ -1,86 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-.filter{
+.filter {
     background-color: white;
     width: 19.25rem;
-    height: 720rem;
-    top:20.75rem;
-    left: 6.25rem;
+    height: auto; /* Ajuste a altura conforme necessário */
     padding: 1.875rem 1rem 0 0;
     gap: 1.25rem;
-    border-radius:4px;
-    opacity: 0rem;
+    border-radius: 4px;
     font-family: "Inter";
- 
+    position: relative;
 }
 
-hr{
+.filter hr {
     width: 82%;
     font-size: 16px;
     margin: 0 auto;
     background-color: seagreen;
     height: 1px;
+    border: none; /* Adicione esta linha para remover qualquer borda padrão */
 }
 
-h1{
-    text-align:left;
+.filter h1 {
+    text-align: left;
     font-weight: 700;
     font-size: 1rem;
-    padding :0rem 0rem 0.8rem 1.6rem ;
+    padding: 0rem 0rem 0.8rem 1.6rem;
 }
 
-h2{
+.filter h2 {
     text-align: left;
+    font-weight: 600;
     font-size: 0.875rem;
-    font-weight: 700;
-    padding: 0.3rem;
-    padding :1.5rem 0rem 1rem 1.7rem ;
+    padding: 0.5rem 0;
 }
 
-ul{
-    font-size: 0.875rem;
-    font-weight: 500;
-    gap: 0.3rem;
-    padding :0rem 0rem 0rem 24px;
-    
+.filter ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-li{ 
-    list-style: none;
-    margin: 0.4rem;
-    font-weight: 400;
-    gap: 8px;
+.filter li {
+    margin: 0.5rem 0;
 }
 
-input[type="checkbox"] {
-    appearance: none;
-    width: 16px;
-    height: 16px;
-    border: 2px solid #ccc;
-    border-radius: 3px;
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-input[type="checkbox"]:checked {
-    background-color: #C92071;
-    border-color: #C92071;
-}
-
-input[type="checkbox"]:checked::after {
-    content: '';
-    position: absolute; 
-    top: 50%;
-    left: 50%;
-    width: 4px;
-    height: 8px;
-    border: solid white;
-    border-width: 0 2px 2px 0;
-    transform: translate(-50%, -50%) rotate(45deg);
+.filter input[type="checkbox"] {
+    margin-right: 0.5rem;
 }

@@ -5,7 +5,6 @@ const ProductListing = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    // Substitua pela URL da sua API mock
     fetch('https://6721a5a698bbb4d93ca91b8c.mockapi.io/ApiTeste/teste')
       .then(response => response.json())
       .then(data => setProducts(data))
@@ -13,7 +12,7 @@ const ProductListing = () => {
   }, []);
 
   return (
-    <div className="product-listing">
+    <div className="product-list">
       {products.map((product, index) => (
         <ProductCard key={index} product={product} />
       ))}
