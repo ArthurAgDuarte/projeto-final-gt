@@ -9,6 +9,7 @@
     /* height: auto; */
     padding: 1rem 1rem;
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     /* align-items: flex-start;  */
     margin-top: 1rem;
@@ -46,3 +47,41 @@
     border: solid 1px;
     color: #cccccc;
 }
+
+.sobreproduto{
+    display: flex;
+    gap: 1rem;
+}
+
+.product-image{
+    height: 7rem;
+    width: 9rem;
+}
+
+.descricaoproduto{
+    display: flex;
+    flex-direction: column;
+}
+
+.nomeproduto{
+    color: #1f1f1f;
+}
+
+.type-color{
+    color: #1f1f1f;
+}
+
+.type-size{
+    color: #1f1f1f;
+}
+
+.prod-size{
+    color: #8f8f8f;
+    display: flex;
+}
+
+.prod-color{
+    color: #8f8f8f;
+    display: flex;      
+}
+

@@ -4,7 +4,7 @@ import Home from "../Pages/Home";
 import ProductLP from "../Pages/ProductLP";
 import ProductVP from "../Pages/ProductVP";
 import NotFound from "../Pages/NotFound";
-import Carrinho from "../Pages/Carrinho";
+import {Carrinho} from "../Pages/Carrinho";
 
 export default function AppRoutes() {
   return (
