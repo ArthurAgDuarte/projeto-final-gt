@@ -1,9 +1,10 @@
-// src/FormularioCompra.js
+
 import React, { useState } from 'react';
 import './FormularioCompra.css';  
 import img from '../../assets/icone.png';
 import img2 from '../../assets/tenis.png';
 import valor from '../../assets/valor.png';
+import img3 from '../../assets/extrato.png';
 
 
 const FormularioCompra = () => {
@@ -102,7 +103,13 @@ const FormularioCompra = () => {
               <img src={valor} />
             </div>
 
+
         <button type="submit">Voltar Para o Home</button>
+
+          <div className="extrato">
+            <img src={img3} />
+          </div>
+
       </form>
     </div>
   );

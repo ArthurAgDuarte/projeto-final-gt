@@ -60,7 +60,7 @@ button {
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: #6d3c05;
 }
 
 
@@ -78,3 +78,13 @@ button:hover {
   margin-left: -1rem;
   padding: 0.6rem ;
 }
+
+
+.extrato img {
+  width: 20%;
+  padding: 3rem 13rem;
+  margin-top: -1rem;
+  margin-left: -0.8rem;
+}
+
+
