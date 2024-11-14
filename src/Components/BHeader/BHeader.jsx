@@ -10,7 +10,11 @@ export default function BHeader() {
             <Link to = "/login">
                 <button className="entrar">Entrar</button>
             </Link>
-            <img src={minhaImagem} alt="" />
+            {/* <img src={minhaImagem} alt="" /> */}
+            
+            <Link to = "/carrinho">
+                <button className="bcarrinho"><img src={minhaImagem} alt="" /></button>
+            </Link>
         </>
     );
 }
