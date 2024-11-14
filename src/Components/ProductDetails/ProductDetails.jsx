@@ -1,12 +1,35 @@
 import "./ProductDetails.css";
 
+import { ProductOptions } from "./../ProductOptions/ProductOptions";
+
+import StarActive from "/svgs/star-active.svg";
+import StarDesactive from "/svgs/star-desactive.svg";
+import StarWhite from "/svgs/star-white.svg";
+
 export function ProductDetails() {
   return (
     <div className="details-container">
       <header className="details-header">
         <h1>Tênis Nike Revolution 6 Next Nature Masc</h1>
         <h2>Casual | Nike | Ref: 5921</h2>
+        <section>
+          <span>
+            <img src={StarActive} />
+            <img src={StarActive} />
+            <img src={StarActive} />
+            <img src={StarActive} />
+            <img src={StarDesactive} />
+          </span>
+
+          <span>
+            <p>4.8</p>
+            <img src={StarWhite} />
+          </span>
+
+          <span>(90 avaliações)</span>
+        </section>
       </header>
+
       <main className="details-main">
         <p>
           <span>
@@ -25,6 +48,7 @@ export function ProductDetails() {
         </p>
       </main>
       <footer className="details-footer">
+        <ProductOptions />
         <button>Comprar</button>
       </footer>
     </div>
