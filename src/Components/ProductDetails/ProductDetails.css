@@ -1,3 +1,7 @@
+body{
+  background-color: rgb(109, 109, 109);
+}
+
 .details-container {
   align-self: flex-start;
 }
