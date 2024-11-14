@@ -1,0 +1,44 @@
+.meu-carrinho{
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    width: 60%;
+    /* height: auto; */
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: flex-start;  */
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 3.1rem;
+    gap: 1rem;
+}
+.carrinho{
+    width: 100%;
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    /* justify-content: space-between; */
+}
+
+.titulo{
+    color:#474747;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    font-size: .875rem;
+    letter-spacing: 0.75px;
+    justify-content: space-between;
+}
+
+.subtitulo{
+    color:#474747;
+    font-weight: 400;
+    display: flex;
+    gap: 2rem;
+}
+
+.linha{
+    border: solid 1px;
+    color: #cccccc;
+}
