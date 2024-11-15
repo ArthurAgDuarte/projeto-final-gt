@@ -1,8 +1,9 @@
+import ProductListing from "../Components/ProductListing/ProductListing";
 
 export default function ProductLP() {
   return (
     <>
-      <h2>Lista de Produto</h2>
+      {/* <ProductListing limit= {12}/> */}
     </>
   );
 }

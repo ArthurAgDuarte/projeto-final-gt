@@ -2,7 +2,7 @@ import "./style.css";
 import React, { useState, useEffect } from 'react';
 import ProductCard from '../ProductCard/ProductCard';
 
-const ProductListing = () => {
+const ProductListing = ({limit}) => {
   
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -29,21 +29,11 @@ const ProductListing = () => {
     fetchProducts();  
   }, []); 
 
- 
-  if (loading) {
-    return <div>Carregando...</div>;
-  }
-
- 
-  if (error) {
-    return <div>Erro: {error}</div>;
-  }
 
   return (
     <div className="product-listing">
-      <h1>Lista de Produtos</h1>
       <div className="product-cards">
-        {products.map((product) => (
+          {products.slice(0, limit).map((product) => (
           <ProductCard key={product.id} produto={product} />
         ))}
       </div>
@@ -52,5 +42,3 @@ const ProductListing = () => {
 };
 
 export default ProductListing;
-
-
