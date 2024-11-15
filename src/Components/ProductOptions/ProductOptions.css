@@ -25,10 +25,15 @@
 }
 
 .product-options-container > div:nth-child(2) span.active-tamanho {
-  background-color: var(--primary);
-  color: white;
+  background-color:#ff1d42;
+  color: rgb(0, 0, 0);
   border: 1px solid transparent;
   transition: all 0.4s ease;
+}
+
+.product-options-container > div:nth-child(2) span:hover {
+  background-color: #ff1d42; /* Cor de fundo ao passar o mouse */
+  color: #000; /* Cor do texto ao passar o mouse */
 }
 
 .product-options-container > div:nth-child(4) span {

@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export function ProductOptions() {
   const options_tamanhos = [39, 40, 41, 42, 43];
-  const options_cores = ["#000", "#fff", "#6feeff", "#ff6969"];
+  const options_cores = ["#000", "#888888", "#6feeff", "#ff6969"];
 
   const [tamanhoAtivo, setTamanhoAtivo] = useState(null);
   const [corAtiva, setCorAtiva] = useState(null);
