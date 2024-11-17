@@ -1,0 +1,49 @@
+.buttons-container {
+    display: flex;
+    gap: 3rem; 
+    align-items: center;
+    justify-content: center;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.highlight-buttons h2{
+    color: #474747;
+    padding: 6.25rem 0rem 1.25rem 0rem ;
+    text-align: center;
+}
+.highlight-button {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 9.375rem;
+    width: 6.5rem;
+    height: 6.5rem;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s;
+}
+
+.highlight-button:hover {
+    background-color: #c92072dc;
+}
+
+.highlight-button img {
+    width: 4rem;
+    height: 3.9375rem;
+    margin: 0; 
+    display: block; 
+}
+
+.button-name {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    color: #474747;
+    text-align: center;
+}

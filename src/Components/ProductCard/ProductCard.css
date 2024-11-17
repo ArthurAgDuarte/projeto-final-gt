@@ -12,6 +12,7 @@
   width: 292px;
   height: 439px;
   background-color: white;
+  cursor: pointer;
 }
 
 .figure-container {
