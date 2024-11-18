@@ -10,10 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "boxicons": "^2.1.4",
+=======
+    "projeto-drip": "file:",
+>>>>>>> 9888611fef6de909548d276f288ae8195131ee1d
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.27.0"
+    "react-router-dom": "^6.28.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",

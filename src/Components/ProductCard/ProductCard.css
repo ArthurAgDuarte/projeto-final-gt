@@ -12,6 +12,7 @@
   width: 292px;
   height: 439px;
   background-color: white;
+  cursor: pointer;
 }
 
 .figure-container {
@@ -76,6 +77,7 @@
 
 .product-container-informations h3 {
   padding: 0.3rem 0 0 0;
+  color : black;
 }
 
 
