@@ -8,11 +8,11 @@ import TenisIcon from './svg/Tenis.svg';
 
 function HighlightButtons() {
     const buttons = [
-        { name: 'Camisetas', icon: CamisetasIcon },
-        { name: 'Calças', icon: CalcaIcon },
-        { name: 'Bonés', icon: BonesIcon },
-        { name: 'Headphones', icon: HeadphoneIcon },
-        { name: 'Tênis', icon: TenisIcon }
+        { icon: CamisetasIcon },
+        { icon: CalcaIcon },
+        { icon: BonesIcon },
+        { icon: HeadphoneIcon },
+        { icon: TenisIcon }
     ];
 
     return (
