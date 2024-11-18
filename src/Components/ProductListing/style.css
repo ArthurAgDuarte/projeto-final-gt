@@ -1,5 +1,6 @@
 .product-listing {
-    padding: 0rem 3rem 0rem 15rem ;
+     padding:8.75rem 6.25rem 8.75rem 1.75rem;
+    width: 80%;
     display:flex;
     justify-content: center;
     align-self: flex-start;
@@ -7,6 +8,7 @@
   
   .product-cards {
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(3, 1fr); 
   }
   
