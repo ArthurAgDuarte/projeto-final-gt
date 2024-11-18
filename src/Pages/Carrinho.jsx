@@ -4,7 +4,7 @@ import {Buybox} from '../Components/Buybox/Buybox.jsx';
 import { useEffect, useState } from 'react';
 
 
-export  function Carrinho() {
+export function Carrinho() {
     const [products, setProducts] = useState();;
     useEffect( () => {
         // Função para buscar dados da API
