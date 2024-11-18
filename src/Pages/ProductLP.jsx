@@ -8,7 +8,6 @@ export default function ProductLP() {
     <>
       <Header/>
       <main className='teste'>
-
       <FilterGroup />
       <ProductListing limit={12}/>  
       </main>
