@@ -1,6 +1,6 @@
 .filter {
     background-color: white;
-    width: 19.25rem;
+    width: 22rem;
     display: flexbox;
     height: auto;
     padding: 8.75rem 1.75rem 110.625rem 6.25rem;
@@ -8,7 +8,7 @@
     border-radius: 4px;
     font-family: "Inter";
     position: relative;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.911);
 
     /* position: sticky;
     top: 0; */
@@ -42,7 +42,7 @@
 .filter ul {
     list-style-type: none;
     padding: 0;
-    gap: 0.625rem;
+    gap: 1rem;
     padding-left: 1.5rem;
 }
 
