@@ -31,7 +31,11 @@
 }
 
 .highlight-button:hover {
-    background-color: #c92072dc;
+    background-color: #c9207265;
+}
+
+.highlight-button:focus{
+    background-color: #C92071;
 }
 
 .highlight-button img {
@@ -41,9 +45,3 @@
     display: block; 
 }
 
-.button-name {
-    margin-top: 0.75rem;
-    font-size: 0.875rem;
-    color: #474747;
-    text-align: center;
-}
