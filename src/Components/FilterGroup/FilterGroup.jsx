@@ -8,7 +8,7 @@ function FilterGroup() {
 
     return (
         <div className="filter">
-            <h1>Filtar por</h1>
+            <h1>Filtrar por</h1>
             <hr />
             <h2>Marca</h2>
             <ul>

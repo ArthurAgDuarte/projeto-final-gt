@@ -1,0 +1,20 @@
+.resultContainer {
+    display: flex;
+    align-items: center; 
+    padding: 3.5rem 0 2rem 4.5rem;
+  }
+  
+  .resultContainer h1 {
+    margin-right: 10px; 
+    font-size: 16px;
+    color:#474747;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+  }
+
+  .resultContainer h2{
+    font-size: 16px;
+    color:#474747;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+  }
