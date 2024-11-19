@@ -3,15 +3,17 @@ import Footer from '../Components/Footer/Footer.jsx';
 import ProductListing from "../Components/ProductListing/ProductListing";
 import FilterGroup from "../Components/FilterGroup/FilterGroup";
 import { ResultFor } from '../Components/resultFor/resultFor.jsx';
+
 import "./style.css"
 export default function ProductLP() {
+  const view = 12;
   return (
     <>
       <Header/>
-      <ResultFor />
+      <ResultFor limit ={view} />
       <main className='teste'>
       <FilterGroup />
-      <ProductListing limit={12}/>  
+      <ProductListing limit={view}/>  
       </main>
       <Footer/>
      </>
