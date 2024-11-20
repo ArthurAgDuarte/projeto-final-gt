@@ -1,11 +1,11 @@
 import React from 'react';
 import './LoginPage.css'; // Adicione um arquivo CSS separado para estilização
-import img from '../assets/img.png'
-import tenis1 from '../assets/ténis1.png';
-import tenis2 from '../assets/ténis2.png';
+import img from '../../assets/img.png'
+import tenis1 from '../../assets/ténis1.png';
+import tenis2 from '../../assets/ténis2.png';
 import { Link } from 'react-router-dom';
 
-export default function LoginPage() {
+export default function Login() {
   return (
     <div className="login-container">
 
