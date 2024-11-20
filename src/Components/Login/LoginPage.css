@@ -3,22 +3,21 @@
   justify-content: space-around;
   align-items: center;
   min-height: 100vh;
-  background-color: rgb(193, 193, 244); /* tom de roxo claro */
+  background-color: rgb(193, 193, 244); 
 }
 
 .container2 {
-  /* position: relative;
-  left: 9rem; */
+
   margin-top: 7rem;
 }
 
 .tenis {
-  /* float: right ; */
+ 
   display: flex;
   padding: 2rem;
   position: relative;
   left: -20rem;
-  /* text-align: center; */
+
   max-width: 1rem;
   width: 10%;
 
@@ -42,7 +41,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  /* max-width: 400px; */
+
   width: 35rem;
 }
 
@@ -57,7 +56,7 @@
 
  }
 
- .cabeçalho{
+ .po{
   display: flex;
   flex-direction: column;
  }
@@ -89,7 +88,7 @@ form {
 }
 
 .create-account-button {
-  background-color: #c71585; /* cor magenta */
+  background-color: #c71585; 
   color: #ffffff;
   border: none;
   padding: 10px;
@@ -106,7 +105,7 @@ form {
 .social-btn {
   background-color: #ffffff;
   color: #ffffff;
-  /* margin-top: 1rem; */
+
   border: none;
 
 }
@@ -114,14 +113,12 @@ form {
 .icon-img {
   width: 18rem; 
   height: auto;
-  /* display: flex; */
+ 
 
 }
 
 .esqueciSenha {
-  /* display: flex; */
-  /* width: 152px; */
-  /* height: 22px; */
+
   gap: 16px;
   text-decoration: underline;
   color: #474747;  

@@ -10,7 +10,7 @@ export default function Login() {
     <div className="login-container">
 
       <div className="login-card">
-        <div className="cabeçalho">
+        <div className="po">
           <h2 className="crieconta">Acesse sua conta</h2>
           <p className="criarconta">
             Novo cliente? Então registre-se <Link to="/cadastro" className="linkcadastro">aqui</Link>.

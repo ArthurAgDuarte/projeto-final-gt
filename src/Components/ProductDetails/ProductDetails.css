@@ -1,7 +1,7 @@
-/* Container principal para alinhar imagem e detalhes lado a lado */
+Container principal para alinhar imagem e detalhes lado a lado
 .details-container {
   display: flex;
-  gap: 20px; /* Espaço entre a imagem e os detalhes */
+  gap: 20px; 
   padding: 20px;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .details-image img {
-  max-width: 100%; /* Garante que a imagem não ultrapasse o container */
+  max-width: 100%;
   height: auto;
 }
 
@@ -84,7 +84,7 @@
 .options-and-buy-button {
   display: flex;
   flex-direction: column;
-  gap: 15px; /* Espaçamento entre as opções e o botão */
+  gap: 15px; 
   align-items: flex-start;
 }
 
@@ -98,7 +98,7 @@
   font-size: 1rem;
   font-weight: bold;
   transition: background-color 1s ease;
-  /* Faz o botão ocupar toda a largura do contêiner */
+
 }
 
 .details-footer button {
