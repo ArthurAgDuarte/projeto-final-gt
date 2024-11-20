@@ -10,40 +10,46 @@ export default function Login() {
     <div className="login-container">
 
       <div className="login-card">
-        <h2>Crie sua conta</h2>
-        <p>
-          Novo cliente? Então registre-se <Link to="/criar">a aqui</Link>.
-        </p>
+        <div className="cabeçalho">
+          <h2 className="crieconta">Acesse sua conta</h2>
+          <p className="criarconta">
+            Novo cliente? Então registre-se <Link to="/cadastro" className="linkcadastro">aqui</Link>.
+          </p>
+        </div>
         <form>
-          <label htmlFor="email">Login *</label>
+          <label className="logar">Login</label>
           <input
             type="email"
-            id="email"
+            className="email"
             placeholder="Insira seu email"
             required
           />  
 
-        <label htmlFor="senha">Senha *</label>
+        <label className="digitesenha">Senha</label>
           <input
-            type="senha"
-            id="senha"
+            type="password"
+            className="senha"
             placeholder="Insira sua senha"
             required
             
           />
-
-          <div className="esqueciSenha">
-            <Link to="/login">Esqueci minha senha</Link> 
-          </div>
-          
-          <button type="submit" className="create-account-button">
-            Criar Conta
-          </button>
+<div className="acoeslogin">
+  
+            <div className="esqueciSenha">
+              <Link to="/login">Esqueci minha senha</Link>
+            </div>
+  
+            <button type="submit" className="create-account-button">
+              Acessar Conta
+            </button>
+  
+            <button className="social-btn">
+            <img src={img} className="icon-img" />
+             </button>
+</div>
         </form>
         
-        <button className="social-btn">
-          <img src={img} className="icon-img" />
-           </button>
+
 
         </div>
 
