@@ -16,7 +16,7 @@ export default function Login() {
             Novo cliente? Então registre-se <Link to="/cadastro" className="linkcadastro">aqui</Link>.
           </p>
         </div>
-        <form>
+        <form className="userlogin">
           <label className="logar">Login</label>
           <input
             type="email"
