@@ -7,13 +7,16 @@ import { ResultFor } from '../Components/resultFor/resultFor.jsx';
 import "./style.css"
 export default function ProductLP() {
   const view = 12;
+  const columns = 3;
+  const rows = 4; 
+
   return (
     <>
       <Header/>
       <ResultFor limit ={view} />
       <main className='teste'>
       <FilterGroup />
-      <ProductListing limit={view}/>  
+      <ProductListing limit={view} rows={rows} columns={columns}/>  
       </main>
       <Footer/>
      </>
