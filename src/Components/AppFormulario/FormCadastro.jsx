@@ -1,24 +1,21 @@
 import React from 'react';
 import './FormCadastro.css';
-import img from '../../assets/college.png'
+
 
 export default function FormCadastro() {
   return (
   <>
-        <div className="img-digital">
-        <img src={img}/>
-        </div>
       
-      <h1>Criar Conta</h1>
+      <h1 className="h1cria">Criar Conta</h1>
 
     <div className="form-cadastro-container">
 
       
-      <form>
+      <form className="formcadastro">
 
-      <div className="section">
-          <h3>Informações Pessoais</h3>
-          <hr /> </div>
+      <div className="section-2">
+          <h3 className="infocad">Informações Pessoais</h3>
+          <hr className="linha"/> </div>
 
         <div className="section">
          
@@ -48,9 +45,9 @@ export default function FormCadastro() {
           </div>
         </div>
 
-        <div className="section">
-          <h3>Informações de Entrega</h3>
-          <hr />
+        <div className="section-entrega">
+          <h3 className="infocad">Informações de Entrega</h3>
+          <hr className="linha"/>
           <div className="form-group">
             <label>Endereço *</label>
             <input type="text" placeholder="Insira seu endereço" required />
@@ -82,8 +79,8 @@ export default function FormCadastro() {
         </div>
 
         <div className="email-loja">
-          <input type="checkbox" id="newsletter" />
-          <label htmlFor="newsletter">
+          <input type="checkbox" id="newsletter" className="newsletter"/>
+          <label htmlFor="newsletter" className="labelnews">
             Quero receber por email ofertas e novidades das lojas da Digital Store. A frequência de envio pode variar de acordo com a interação do cliente.
           </label>
         </div>

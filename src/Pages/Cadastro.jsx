@@ -1,15 +1,15 @@
 
 import Header from '../Components/Header/Header.jsx';
 import Footer from '../Components/Footer/Footer.jsx';
-import Login from '../Components/Login/Login.jsx';
+import FormCadastro from '../Components/AppFormulario/FormCadastro.jsx';
 
 
-export default function LoginPage(){
+export default function Cadastro(){
     return(
     <>
        <Header/>
        <main>
-        <Login/>
+        <FormCadastro/>
        </main>
        <Footer/>
     </>
