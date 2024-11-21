@@ -70,10 +70,11 @@
   font-size: 0.75rem; 
   color:#8f8f8f;
 }
-
 .product-container-informations h3 {
-  padding: 0.3rem 0 0 0;
-  color : black;
+  font-size: 1.2rem;
+  margin: 0;
+  white-space: nowrap;
+  
 }
 
 

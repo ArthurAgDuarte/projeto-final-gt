@@ -14,7 +14,7 @@ export default function AppRoutes() {
         <Route path="/" element={<Home/>} />
         <Route path="/produtos" element={<ProductLP/>} />
         <Route path="/carrinho" element={<Carrinho/>} />
-        <Route path="/product" element={<ProductVP/>} />
+        <Route path="/produto/:id" element={<ProductVP/>} />
         <Route path="*" element={<NotFound/>} />
         <Route path="/login" element={<Login/>} />
         
