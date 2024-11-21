@@ -95,9 +95,11 @@ const ProductDetails = () => {
         </div>
       </div>
 
-      <section className="relacionados">
-        <h2>Produtos Relacionados</h2>
-        <button className="verTodos" onClick={backToProductsLP}>Ver Todos →</button>
+      <section className="relacionados1">
+        <div className="relacionados">
+          <h2>Produtos Relacionados</h2>
+          <button className="verTodos" onClick={backToProductsLP}>Ver Todos →</button>
+        </div>
       </section>
     </div>
   );
