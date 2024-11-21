@@ -1,0 +1,15 @@
+.container-destaque{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 8rem; 
+    gap: 2rem;
+}
+
+.imgdestaque{
+    display: flex;
+    justify-content: center;
+}
+
+.destaqueprod{
+    color: #1f1f1f;
+}

@@ -1,0 +1,34 @@
+.container-jordan{
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ofertaesp{
+    font-weight: 700;
+}
+
+.airjordan{
+    font-size: 4rem;
+    color: #1f1f1f;
+}
+
+.lorem{
+    color: #1f1f1f;
+    font-size: 1rem;
+}
+
+.ofertabut{
+    background-color: #C92071;
+    color: #ffffff;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+    text-align: center;
+
+}
+
+.sobrejordan{
+    gap: 2rem;
+}

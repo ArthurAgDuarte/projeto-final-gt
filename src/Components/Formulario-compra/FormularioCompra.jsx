@@ -5,6 +5,8 @@ import img from '../../assets/icone.png';
 import img2 from '../../assets/tenis.png';
 import valor from '../../assets/valor.png';
 import img3 from '../../assets/extrato.png';
+import { Link } from 'react-router-dom';
+
 
 
 export default function FormularioCompra(){
@@ -94,7 +96,9 @@ export default function FormularioCompra(){
             
 
 
-        <button type="submit" className="comprado">Voltar Para o Home</button>
+        <button type="submit" className="comprado">
+         <Link to = "/"></Link> 
+          Voltar Para o Home</button>
 
       </form>
     </div>

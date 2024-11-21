@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import imgR from "../../assets/retira.svg"
 import { useState } from "react";
 import imgA from "../../assets/adiciona.svg"
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -37,7 +39,7 @@ export function Buybox({produto, key}){
                             <p>Valor</p>
                         </div>
                     </div>
-                    <div className="linha"></div>
+                    <div className="linha2"></div>
             
                 </div>
                 <article className="card-produto">
@@ -75,7 +77,7 @@ export function Buybox({produto, key}){
                         </div>
                     </div>
                 </article>
-                <div className="linha"></div>
+                <div className="linha2"></div>
                 <div className="cupom-cep">
                     <div className="cupomdesc">
                         <h5 className="input-cupom">Cupom de desconto</h5>
@@ -91,7 +93,7 @@ export function Buybox({produto, key}){
             </section>
             <section className="resumo-pedido">
                 <p className="resumo">Resumo</p>
-                <div className="linha"></div>
+                <div className="linha2"></div>
                 <div className="valores">
                     <div className="subtotal">
                         <p className="subtot">
@@ -126,6 +128,7 @@ export function Buybox({produto, key}){
                         </p>
                     </div>
                     <button className="comprar">
+                        <Link to="/compra-sucesso"></Link>
                         COMPRAR
                     </button>
                     
