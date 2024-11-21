@@ -5,6 +5,7 @@ import ProductLP from "../Pages/ProductLP";
 import ProductVP from "../Pages/ProductVP";
 import NotFound from "../Pages/NotFound";
 import {Carrinho} from "../Pages/Carrinho";
+import InfoPage from "../Pages/InfoPage";
 
 export default function AppRoutes() {
   return (
@@ -15,6 +16,7 @@ export default function AppRoutes() {
         <Route path="/carrinho" element={<Carrinho/>} />
         <Route path="/produto/:id" element={<ProductVP/>} />
         <Route path="*" element={<NotFound/>} />
+        <Route path="/MinhasInfomaçoes" element={<InfoPage/>} />
       
         
       </Routes>

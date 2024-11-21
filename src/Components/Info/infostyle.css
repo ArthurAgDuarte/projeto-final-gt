@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    padding: 5rem 6.3125rem 15.5625rem 6.1875rem;
+    gap: 4rem;
+    width: 100%;
+  }
+  
+.menu {
+    width: 20.875rem;
+    height: 18.5rem; 
+    background-color: #FFFFFF; 
+    border-radius: 8px;
+  }
+  
+.menu h3{
+    color:#474747;
+    padding:1.875rem 0 1.25rem 1.875rem;
+    font-weight: 700;
+    font-size: 0.875rem;
+  }
+
+.menu li{
+    color:#474747;
+    font-weight: 500;
+    padding: 1.7rem 1rem;
+
+  }
+
+.menu li:hover a{
+    color: #C92071;
+  }
+
+
+.menu hr{
+    height: 1px;
+    background-color: #CCCCCC; 
+    width: 17.125rem;
+    margin: 0 auto; 
+    
+  }
+
+  .conteudo{
+    width: 55.625rem;
+    height: 29.125rem;
+    background-color: #FFFFFF;
+  }
+
+  .titulo h2{
+    color:#C92071;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+
+
+  
+  
+  
