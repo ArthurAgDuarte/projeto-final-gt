@@ -7,7 +7,7 @@ import valor from '../../assets/valor.png';
 import img3 from '../../assets/extrato.png';
 
 
-const FormularioCompra = () => {
+export default function FormularioCompra(){
   const [formData, setFormData] = useState({
     InformacoesPesoais: '',
     nome: '',
@@ -33,88 +33,73 @@ const FormularioCompra = () => {
   };
 
   return (
-    <div className="formulario-container">
+    <div className="formulario-container2">
            
-           <div className="img"> <img src={img}/></div>  
+           <div className="img-sucesso"><img src={img} className="sucesso"/> </div> 
 
-      <h2>Compra Realizada <br />com sucesso!</h2>
+      <h2 className="h2">Compra Realizada <br />com sucesso!</h2>
       <form onSubmit={handleSubmit}>
 
-          <h5>Informações Pessoais</h5>
+          <h5 className="h5">Informações Pessoais</h5>
       
-        <div className="form-group">
+        <div className="form-group2">
           <label htmlFor="nome">Nome:</label>
         </div>
 
-        <div className="form-group">
+        <div className="form-group2">
           <label htmlFor="CPF">CPF:</label>
         </div>
 
 
-        <div className="form-group">
+        <div className="form-group2">
           <label htmlFor="email">E-mail:</label>
         </div>
 
-        <div className="form-group">
+        <div className="form-group2">
           <label htmlFor="celular">Celular:</label>    
         </div>
         <hr />
 
          <h5>Informações de Entrega</h5>
 
-        <div className="form-group">
+        <div className="form-group2">
           <label htmlFor="endereco">Endereço:</label>  
         </div>
 
-        <div className="form-group">
+        <div className="form-group2">
           <label htmlFor="bairro">Bairro:</label>
         </div>
 
-        <div className="form-group">
+        <div className="form-group2">
           <label htmlFor="cidade">Cidade:</label> 
         </div>
         
-        <div className="form-group">
+        <div className="form-group2">
           <label htmlFor="cep">CEP:</label>
         </div>
         <hr />
 
-        <h5>Informações de Pagamento</h5>
+        <h5 className="h5">Informações de Pagamento</h5>
 
-        <div className="form-group">
+        <div className="form-group2">
           <label htmlFor="email">Titular do Cartão:</label> 
         </div>
 
 
-        <div className="form-group">
+        <div className="form-group2">
           <label htmlFor="numeroCartao">Número do Cartão:</label>
         </div>
         <hr />
           
             
-            <div className="sapato">
-
-            <h4>Resumo da compra</h4>
-
-              <img src={img2}/>
-            </div>
-
-            <div className="valor">
-              <img src={valor} />
-            </div>
 
 
-        <button type="submit">Voltar Para o Home</button>
-
-          <div className="extrato">
-            <img src={img3} />
-          </div>
+        <button type="submit" className="comprado">Voltar Para o Home</button>
 
       </form>
     </div>
   );
 };
 
-export default FormularioCompra;
 
 //
