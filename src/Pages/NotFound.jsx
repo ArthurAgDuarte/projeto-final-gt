@@ -5,7 +5,7 @@ export default function NotFound() {
     return (
         <>
             <Header/>
-            <img src={minhaImagem} alt="" />
+            <div className="notfoundimg"><img src={minhaImagem} alt="" /></div>
              <Footer/>
         </>
     );

@@ -3,6 +3,34 @@ import './FormCadastro.css';
 
 
 export default function FormCadastro() {
+  const [user, setUser] = useState({
+    nome:'',
+    email:'',
+    senha:'',
+    cpf:'',
+    cep:'',
+    bairro:'',
+    endereco:'',
+    complemento:''
+  });
+   
+  const handleSubmit = async (e) =>{
+      e.preventDefault();
+      try{
+      const response = await fetch("http://localhost:3000/api/user/register",{
+          method: "POST",
+          headers: {
+              'Content-Type': 'application/json',
+          },
+      })
+  }catch(error){
+      console.error('Erro ao fazer login:', error);
+          alert('Erro ao conectar ao servidor.');
+  }
+
+  } 
+  
+  
   return (
   <>
       
