@@ -31,7 +31,7 @@ export default function BHeader() {
     if (logado === true) {
         conteudo =
         <>
-                <Link to= "/meuperfil">
+                <Link to= "/MinhasInfomaçoes">
                 Bem-vindo {usuario.user.email}!</Link>
                 <button className= "entrar" onClick={handleLogout}>
                     Sair
