@@ -32,7 +32,7 @@ export default function BHeader() {
         conteudo =
         <>
                 <Link to= "/meuperfil">
-                Bem-vindo {usuario.email}!</Link>
+                Bem-vindo {usuario.user.email}!</Link>
                 <button className= "entrar" onClick={handleLogout}>
                     Sair
                 </button>
