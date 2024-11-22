@@ -5,7 +5,7 @@ export default function FormCadastro() {
   const [user, setUser] = useState({
     name: "",
     email: "",
-    password: "",
+    senha: "",
     cpf: "",
     cep: "",
     bairro: "",
@@ -39,6 +39,7 @@ export default function FormCadastro() {
         console.log("Usuário criado com sucesso!");
         // navigate("/acessarconta");
         alert("Usuário criado com sucesso!");
+        // window.locate.href = "/login"
       }
       alert("Usuário cadastrado com sucesso!");
     } catch (error) {
@@ -100,8 +101,8 @@ export default function FormCadastro() {
               <input
                 type="password"
                 placeholder="Insira seu celular"
-                id="password"
-                value={user.password}
+                id="senha"
+                value={user.senha}
                 onChange={handleChange}
                 required
               />
