@@ -3,13 +3,14 @@ import "./LoginPage.css"; // Adicione um arquivo CSS separado para estilização
 import img from "../../assets/img.png";
 import tenis1 from "../../assets/ténis1.png";
 import tenis2 from "../../assets/ténis2.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Login() {
   const [user, setUser] = useState({
     email: "",
     password: "",
   });
+  const navigate = useNavigate();
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -35,12 +36,13 @@ export default function Login() {
 
       if (response.ok) {
         // Salvar dados no localStorage
-        localStorage.setItem("user", JSON.stringify(result.user));
+        localStorage.setItem('token', data.token)
+        localStorage.setItem("user", JSON.stringify(result));
 
         alert("Login realizado com sucesso!");
 
         // Redirecionar para outra página, se necessário
-        // window.location.href = '/dashboard';
+        window.location.href = '/';
       } else {
         alert("Erro ao realizar login.");
       }
