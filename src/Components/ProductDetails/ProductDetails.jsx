@@ -1,23 +1,64 @@
 import "./ProductDetails.css";
 import { ProductOptions } from "../ProductOptions/ProductOptions";
+import React, { useState, useEffect } from 'react';
+import { useParams , useNavigate } from 'react-router-dom';
 import Star from "../../assets/Path.svg";
 import Star_ from "../../assets/Star 01.svg";
 import StarWhite from "../../assets/star-white.svg";
-import Sneaker from "../../assets/sneaker.svg";
 
-export default function ProductDetails() {
+
+
+const ProductDetails = () => {
+  const { id } = useParams();
+  const navigate = useNavigate();
+  const [product, setProduct] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchProduct = async () => {
+      try {
+        const response = await fetch(`https://6721a5a698bbb4d93ca91b8c.mockapi.io/ApiTeste/teste/${id}`);
+        if (!response.ok) {
+          throw new Error('Erro ao buscar o produto');
+        }
+        const data = await response.json();
+        setProduct(data);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchProduct();
+  }, [id]);
+
+  if (loading) return <div>Carregando...</div>;
+  if (error) return <div>Erro: {error}</div>;
+
+  const handleBuyClick = () => {
+    navigate('/carrinho');
+  };
+
+  const backToProductsLP = () => {
+    navigate('/produtos');
+  };
+
   return (
+
     <div className="details-container">
+      <div className="path"><h3>Produtos / Tênis / {product.nome}</h3></div>
       {/* Coluna da Imagem */}
       <div className="details-image">
-        <img src={Sneaker} alt="Tênis Nike Revolution 6 Next Nature Masc" />
+        <img src={product.image}/>
       </div>
 
       {/* Coluna dos Detalhes */}
       <div className="details-content">
-        <header className="details-header">
-          <h1>Tênis Nike Revolution 6 Next Nature Masc</h1>
-          <p>Casual | Nike | Ref: 5921</p>
+        <div className="details-header">
+          <h1>{product.nome}</h1>
+          <p>Casual | {product.id}</p>
 
           <div className="rating">
             <img src={Star_} alt="Star" />
@@ -25,39 +66,44 @@ export default function ProductDetails() {
             <img src={Star_} alt="Star" />
             <img src={Star_} alt="Star" />
             <img src={Star} alt="Star" />
-          </div>
+          
           <div className="star-class">
             <span>
               <p>4.8</p>
               <img src={StarWhite} />
             </span>
           </div>
-          <span>(90 avaliações)</span>
-        </header>
+          <h3 className="avaliacao">(90 avaliações)</h3>
+        </div>
+        </div>
 
         <main className="details-main">
           <p className="price">
-            <span>R$ 219,00</span>
+            <span>R$ {product.PrecoComDesconto}</span>
+            <span>{product.price}</span>
           </p>
           <h3>Descrição do produto</h3>
-          <p>
-            Tênis Nike masculino casual combina estilo e conforto para o dia a
-            dia. Feito com materiais leves e respiráveis, possui design versátil
-            que se adapta a diferentes ocasiões, do trabalho a passeios casuais.
-            A sola em borracha garante boa aderência, e o amortecimento interno
-            proporciona maciez e suporte para os pés, ideal para quem busca
-            praticidade e um visual esportivo com um toque urbano.
-          </p>
+          <p>{product.Descricao}</p>
         </main>
 
-        <footer className="details-footer">
+        <div className="details-footer">
           {/* Container das opções e botão */}
           <div className="options-and-buy-button">
             <ProductOptions />
-            <button className="buy-button">Comprar</button>
+            <button className="buy-button" onClick={handleBuyClick}>Comprar</button>
           </div>
-        </footer>
+        </div>
       </div>
+
+      <section className="relacionados1">
+        <div className="relacionados">
+          <h2>Produtos Relacionados</h2>
+          <button className="verTodos" onClick={backToProductsLP}>Ver Todos →</button>
+        </div>
+      </section>
     </div>
   );
 }
+export default ProductDetails;
+
+

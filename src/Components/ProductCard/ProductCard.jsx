@@ -5,7 +5,7 @@ import propTypes from "prop-types";
 
 export default function ProductCard({ produto }) {
   const navigate = useNavigate();
-  const handleClick = () => navigate("/produto");
+  const handleClick = () => navigate(`/produto/${produto.id}`);
 
   return (
     <div className="product-card-container" onClick={handleClick}>
